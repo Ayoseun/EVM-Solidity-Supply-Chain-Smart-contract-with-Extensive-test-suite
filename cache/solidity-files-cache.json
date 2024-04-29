@@ -1,0 +1,115 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/ayoseun/Documents/GitHub/geth-lite/Polygy/contracts/swearit.sol": {
+      "lastModificationDate": 1713620529650,
+      "contentHash": "299134c715b466864fed804f996f47c7",
+      "sourceName": "contracts/swearit.sol",
+      "solcConfig": {
+        "version": "0.8.25",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "SwearIT"
+      ]
+    },
+    "/Users/ayoseun/Documents/GitHub/geth-lite/Polygy/contracts/swearit_factory.sol": {
+      "lastModificationDate": 1713525345274,
+      "contentHash": "13b760c447098d0f82d59f1bbe79429d",
+      "sourceName": "contracts/swearit_factory.sol",
+      "solcConfig": {
+        "version": "0.8.25",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./swearit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.23"
+      ],
+      "artifacts": [
+        "SwearITFactory"
+      ]
+    },
+    "/Users/ayoseun/Documents/GitHub/geth-lite/Polygy/contracts/swearit_interface.sol": {
+      "lastModificationDate": 1712583727688,
+      "contentHash": "6141fed7ecd4ed6b243532012ef0b9cd",
+      "sourceName": "contracts/swearit_interface.sol",
+      "solcConfig": {
+        "version": "0.8.25",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.23"
+      ],
+      "artifacts": [
+        "ISwearIT"
+      ]
+    }
+  }
+}
